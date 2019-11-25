@@ -34,7 +34,7 @@ from the same directory to log in to the Virtual Environment.
 ## Views for the Questions
 
 # Question 2 
-```
+``` sql
 CREATE VIEW article_authors AS
 SELECT title, name
 FROM articles, authors
@@ -49,7 +49,7 @@ ORDER BY views desc;
 ```
 
 # Question 3
-```
+```sql
 CREATE VIEW requests AS
 SELECT to_char(time,'DD-MON-YYYY') as date, COUNT(status) as requestCount
 FROM log
