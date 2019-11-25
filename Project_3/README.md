@@ -6,7 +6,7 @@ For this project, I had to create a reporting tool for a fictional news website.
  3. On which days did more than 1% of requests lead to errors?
 
 ## How do I run this?
-1. I used the VM to make sure that the environment I was building the project was similar to the one instructors had used. It is recommended to use 'vagrant' to have the Linux Development environment and you can download [vagrant] (https://www.vagrantup.com/) and [Virtual Machine](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) in those links.
+1. I used the VM to make sure that the environment I was building the project was similar to the one instructors had used. It is recommended to use 'vagrant' to have the Linux Development environment and you can download [vagrant](https://www.vagrantup.com/) and [Virtual Machine](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) in those links.
 
 2. Download the VM configuration from the [downloads folder](https://github.com/metalwihen/udacity-full-stack-nanodegree-projects/blob/master/Project3/downloads) or clone from this [github repo.](https://github.com/udacity/fullstack-nanodegree-vm) Note the path where you downloaded it as it will be used in other steps.
 
@@ -64,16 +64,6 @@ GROUP BY date;
 
 ## References
 
-<<<<<<< HEAD
 [Creating time string from time stamp](http://www.postgresqltutorial.com/postgresql-to_char/)
 [Functions PostgreSQL](https://www.postgresql.org/docs/12/functions.html)
 [Aggregate Functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
-||||||| merged common ancestors
-(Creating time string from time stamp)[http://www.postgresqltutorial.com/postgresql-to_char/]
-(Functions PostgreSQL)[https://www.postgresql.org/docs/12/functions.html]
-(Aggregate Functions)[https://www.postgresql.org/docs/9.5/static/functions-aggregate.html]
-=======
-(Creating time string from time stamp) [http://www.postgresqltutorial.com/postgresql-to_char/]
-(Functions PostgreSQL) [https://www.postgresql.org/docs/12/functions.html]
-(Aggregate Functions) [https://www.postgresql.org/docs/9.5/static/functions-aggregate.html] 
->>>>>>> ad51a4d9341092370864d2a0a74c5586bf59843b
