@@ -1,0 +1,21 @@
+Output 
+
+
+#Problem #1
+
+This is the list of the three most popular articles:
+Candidate is jerk, alleges rival --- 338647 views
+Bears love berries, alleges bear --- 253801 views
+Bad things gone, say good people --- 170098 views
+
+#Problem #2
+
+This is the list of the three authors with the most articles views:
+Ursula La Multa --- 507594 views
+Rudolf von Treppenwitz --- 423457 views
+Anonymous Contributor --- 170098 views
+
+#Problem #3
+
+This is the list of the days where more than 1 percent of logs received error response:
+17-JUL-2016  --  2.26 % errors
