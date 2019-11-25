@@ -49,7 +49,6 @@ ORDER BY views desc;
 ```
 
 # Question 3
-
 ```
 CREATE VIEW requests AS
 SELECT to_char(time,'DD-MON-YYYY') as date, COUNT(status) as requestCount
@@ -61,11 +60,20 @@ SELECT to_char(time,'DD-MON-YYYY') as date, COUNT(status) as ErrorResponseCount
 FROM log
 where status = '404 NOT FOUND'
 GROUP BY date;
-
 ```
 
 ## References
 
+<<<<<<< HEAD
 [Creating time string from time stamp](http://www.postgresqltutorial.com/postgresql-to_char/)
 [Functions PostgreSQL](https://www.postgresql.org/docs/12/functions.html)
 [Aggregate Functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
+||||||| merged common ancestors
+(Creating time string from time stamp)[http://www.postgresqltutorial.com/postgresql-to_char/]
+(Functions PostgreSQL)[https://www.postgresql.org/docs/12/functions.html]
+(Aggregate Functions)[https://www.postgresql.org/docs/9.5/static/functions-aggregate.html]
+=======
+(Creating time string from time stamp) [http://www.postgresqltutorial.com/postgresql-to_char/]
+(Functions PostgreSQL) [https://www.postgresql.org/docs/12/functions.html]
+(Aggregate Functions) [https://www.postgresql.org/docs/9.5/static/functions-aggregate.html] 
+>>>>>>> ad51a4d9341092370864d2a0a74c5586bf59843b
