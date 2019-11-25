@@ -64,8 +64,6 @@ GROUP BY date;
 
 ## References
 
-[Creating time string from time stamp](http://www.postgresqltutorial.com/postgresql-to_char/)
-
-[Functions PostgreSQL](https://www.postgresql.org/docs/12/functions.html)
-
-[Aggregate Functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
+-[Creating time string from time stamp](http://www.postgresqltutorial.com/postgresql-to_char/)
+-[Functions PostgreSQL](https://www.postgresql.org/docs/12/functions.html)
+-[Aggregate Functions](https://www.postgresql.org/docs/9.5/static/functions-aggregate.html)
