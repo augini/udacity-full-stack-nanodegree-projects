@@ -1,4 +1,7 @@
-## Logs Analysis
+# Logs Analysis
+
+## Description
+
 For this project, I had to create a reporting tool for a fictional news website. This tool is written in Python and uses the psycopg2 module to connect to the mock 'news' database created in PostgreSQL and provided by Udacity.  So based on the database tables, I had to answer the following questions:
 
  1. What are the most popular three articles of all time?
