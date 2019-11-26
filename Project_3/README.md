@@ -11,11 +11,7 @@ For this project, I had to create a reporting tool for a fictional news website.
 ## How do I run this?
 1. I used the VM to make sure that the environment I was building the project was similar to the one instructors had used. It is recommended to use 'vagrant' to have the Linux Development environment and you can download [vagrant](https://www.vagrantup.com/) and [Virtual Machine](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) in those links.
 
-2. Download the VM configuration from the [downloads folder](https://github.com/metalwihen/udacity-full-stack-nanodegree-projects/blob/master/Project3/downloads) or clone from this [github repo.](https://github.com/udacity/fullstack-nanodegree-vm) Note the path where you downloaded it as it will be used in other steps.
-
-The configuration file specifies the arrangement of resources (processors, memory, disks, network adapters, etc) assigned to a virtual machine.
-
-After downloading those files, install the Virtual Box first. Then go the directory 'vagrant' was downloaded and run:
+2. Download the VM configuration from the [downloads folder](https://github.com/metalwihen/udacity-full-stack-nanodegree-projects/blob/master/Project3/downloads) or clone from this [github repo.](https://github.com/udacity/fullstack-nanodegree-vm) Note the path where you downloaded it as it will be used in other steps.The configuration file specifies the arrangement of resources (processors, memory, disks, network adapters, etc) assigned to a virtual machine. After downloading those files, install the Virtual Box first. Then go the directory 'vagrant' was downloaded and run:
 `vagrant up`
 to install the environment. Note that it will take a quuite amount of time and you have to run this command everytime you reboot your system.
 
@@ -36,7 +32,7 @@ from the same directory to log in to the Virtual Environment.
 
 ## Views for the Questions
 
-# Question 2 
+### Question 2 
 ``` sql
 CREATE VIEW article_authors AS
 SELECT title, name
@@ -51,7 +47,7 @@ GROUP BY article.title
 ORDER BY views desc;
 ```
 
-# Question 3
+### Question 3
 ```sql
 CREATE VIEW requests AS
 SELECT to_char(time,'DD-MON-YYYY') as date, COUNT(status) as requestCount
