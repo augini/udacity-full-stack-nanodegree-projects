@@ -23,7 +23,7 @@ The following instructions assume you have Python installed. If not, install [Py
 
 **Step 4:** Run the following command
 
-`python entertainment_center.py`
+`python entertainment.py`
 
 
 ## Project Rubric
